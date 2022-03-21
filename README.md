@@ -28,6 +28,13 @@ E1['あＳ']=`
 ここから　もとのみちに　もどれそうだ　
 `
 
+function getevent(f,ch,v){
+ var floor=EVENT[f];
+ if(!floor)return void 0;
+ v=fn.tobig(v);
+ return floor[ch+v]||floor[ch]||void 0
+}
+
 ;
 
 ```
