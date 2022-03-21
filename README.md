@@ -3,6 +3,8 @@ neu is
 
 ```js
 
+var MAX_W=10
+var MAX_H=10
 var DUNG=[27]
 var EVENT=[27]
 ;
